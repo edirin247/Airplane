@@ -177,7 +177,7 @@ contract Airplane  is StandardToken {
   /**
    * @dev Constructor that gives msg.sender all of existing tokens.
    */
-  function SimpleToken() public {
+  function Airplane() public {
     totalSupply = INITIAL_SUPPLY;
     balances[msg.sender] = INITIAL_SUPPLY;
   }
